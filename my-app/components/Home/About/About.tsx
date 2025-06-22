@@ -33,9 +33,11 @@ const About = () => {
           <div className="mt-8 border-l-2 border-gray-200">
             <div className="ml-6">
               <p className="text-gray-700 font-medium text-lg">
-                "The many integrations that can be linked really help me see
-                data form other tools I also use"
+                {
+                  '"The many integrations that can be linked really help me see data from other tools I also use"'
+                }
               </p>
+
               <div className="flex items-center space-x-6 mt-6 ">
                 <Image
                   src="/images/u1.jpg"
