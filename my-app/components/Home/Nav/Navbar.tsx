@@ -55,7 +55,7 @@ const[navBg,setNavBg] = useState(false)
           <span className="absolute bottom-0 left-0 w-full h-1 transition-all duration-150 ease-in-out bg-indigo-600 group-hover:h-full"></span>
           <span className="absolute right-0 pr-4 duration-200 ease-out group-hover:translate-x-12">
             <svg
-              className="w-5 h-5 text-green-400"
+              className="w-5 h-5 text-blue-400"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
