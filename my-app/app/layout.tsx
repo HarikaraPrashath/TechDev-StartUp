@@ -8,18 +8,9 @@ const font = Rethink_Sans({
   weight:["400","500","600","700","800"],
   subsets:['latin']
 })
-// const geistSans = Geist({
-//   variable: "--font-geist-sans",
-//   subsets: ["latin"],
-// });
-
-// const geistMono = Geist_Mono({
-//   variable: "--font-geist-mono",
-//   subsets: ["latin"],
-// });
 
 export const metadata: Metadata = {
-  title: "Start-up Landing page",
+  title: "TechFalcon",
   description: "StartUp by Next js",
 };
 
