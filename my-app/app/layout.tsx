@@ -3,6 +3,7 @@ import { Rethink_Sans } from "next/font/google";
 import "./globals.css";
 import ResponsiveNav from "@/components/Home/Nav/ResponsiveNav";
 import Footer from "@/components/Home/Footer/Footer";
+import ScrollerTop from "@/components/Helper/ScrollerTop";
 
 
 const font = Rethink_Sans({
@@ -28,6 +29,7 @@ export default function RootLayout({
          <ResponsiveNav/>
         {children}
         <Footer/>
+        <ScrollerTop/>
       </body>
     </html>
   );
