@@ -7,7 +7,13 @@ const Team = () => {
     <div className="pt-16 pb-16">
       <div className="w-[80%] mx-auto grid grid-cols-1 lg:grid-cols-5 gap-10 items-center">
         {/* Text Content */}
-        <div className="lg:col-span-2">
+        <div
+          data-aos="fade-zoom-in"
+          data-aos-easing="ease-in-back"
+          data-aos-delay="300"
+          data-aos-offset="0"
+          className="lg:col-span-2"
+        >
           <BoxText>Our Team</BoxText>
           {/* Heading */}
           <h1 className="mt-4 text-xl md:text-2xl font-bold text-gray-800">
@@ -37,7 +43,12 @@ const Team = () => {
 
         {/* Image */}
         <div className=" sm:flex items-center space-y-4 sm:space-y-0 sm:space-x-4 lg:col-span-3">
-          <div className="relative overflow-hidden ml-10">
+          <div
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+            className="relative overflow-hidden ml-10"
+          >
             <Image
               src="/images/t1.jpg"
               alt="team"
@@ -51,7 +62,12 @@ const Team = () => {
             </div>
           </div>
 
-          <div className="relative overflow-hidden ml-10">
+          <div
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+            className="relative overflow-hidden ml-10"
+          >
             <Image
               src="/images/t2.jpg"
               alt="team"

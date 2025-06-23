@@ -8,7 +8,7 @@ const Hero = () => {
     <div className="relative w-full h-[110vh] sm:h-screen bg-[url('/images/bg.png')] bg-cover bg-center flex justify-center flex-col">
       <div className="w-[90%] md:w-[80%] mx-auto items-center grid grid-cols-1 xl:grid-cols-2 gap-10">
         {/* Text Content */}
-        <div>
+        <div data-aos="fade-up">
           <p className="text-sm sm:text-base md:text-xl font-bold text-blue-900">
             Make the Smartest Investment
           </p>
@@ -101,8 +101,8 @@ const Hero = () => {
         </div>
 
         {/* Right column (optional image or illustration) */}
-        <div className="mx-auto hidden xl:block">
-          <Image src="/images/hero.jpg" alt="image" width={900} height={900}/>
+        <div data-aos="fade-down" className="mx-auto hidden xl:block">
+          <Image src="/images/hero.jpg" alt="image" width={900} height={900} />
         </div>
       </div>
     </div>

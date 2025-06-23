@@ -7,7 +7,10 @@ import { MdAccessAlarm, MdOutlineTouchApp } from "react-icons/md";
 const Feature = () => {
   return (
     <div className="pt-16  pb-16 bg-gray-150 font-bold">
-      <div>
+      <div
+      data-aos="fade-up"
+     data-aos-anchor-placement="bottom-bottom"
+      >
         <h1 className="text-center text-2xl text-blue-950 font-bold">
           Key Feature Of The Products
         </h1>
@@ -21,7 +24,7 @@ const Feature = () => {
         {/* Inner grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center ">
           {/* 1st Box */}
-          <div className="bg-gray-200 p-4 rounded-3xl">
+          <div data-aos="zoom-in-left" className="bg-gray-200 p-4 rounded-3xl">
             <div className="flex items-center space-x-3 ">
               {/* Icons */}
               <div className="w-12 h-12 rounded-3xl flex items-center justify-center flex-col bg-pink-200 bg-opacity-20">
@@ -40,7 +43,7 @@ const Feature = () => {
             </p>
           </div>
           {/* 2nd Box */}
-          <div className="bg-gray-200 p-4 rounded-3xl">
+          <div data-aos="zoom-in-right" className="bg-gray-200 p-4 rounded-3xl">
             <div className="flex items-center space-x-3 ">
               {/* Icons */}
               <div className="w-12 h-12 rounded-3xl flex items-center justify-center flex-col bg-pink-200 bg-opacity-20">
@@ -60,7 +63,7 @@ const Feature = () => {
           </div>
 
           {/* 3rd Box */}
-          <div className="bg-gray-200 p-4 rounded-3xl">
+          <div data-aos="zoom-in-left" className="bg-gray-200 p-4 rounded-3xl">
             <div className="flex items-center space-x-3 ">
               {/* Icons */}
               <div className="w-12 h-12 rounded-3xl flex items-center justify-center flex-col bg-pink-200 bg-opacity-20">
@@ -80,7 +83,7 @@ const Feature = () => {
           </div>
 
           {/* 4th Box */}
-          <div className="bg-gray-200 p-4 rounded-3xl">
+          <div data-aos="zoom-in-right" className="bg-gray-200 p-4 rounded-3xl">
             <div className="flex items-center space-x-3 ">
               {/* Icons */}
               <div className="w-12 h-12 rounded-3xl flex items-center justify-center flex-col bg-pink-200 bg-opacity-20">
@@ -101,7 +104,8 @@ const Feature = () => {
         </div>
 
         {/* Image Content */}
-        <div>
+        <div data-aos="fade-up"
+     data-aos-anchor-placement="top-center">
           <Image src="/images/f1.png" alt="Feature" width={700} height={700} />
         </div>
       </div>

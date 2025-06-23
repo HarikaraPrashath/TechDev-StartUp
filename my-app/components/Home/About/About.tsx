@@ -8,12 +8,16 @@ const About = () => {
     <div className=" pb-20 ">
       <div className="w-[80%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
         {/* Image represent */}
-        <div>
+        <div
+        data-aos="fade-down-right"
+        >
           <Image src="/images/about.png" alt="About" width={600} height={600} />
         </div>
 
         {/* Text Content */}
-        <div>
+        <div
+        data-aos="fade-down-left"
+        >
           <BoxText>About us</BoxText>
           <h1 className="text-2xl sm:text-3xl font-bold text-gray-900 mt-3 leading-[2.5rem] sm:leading-[3rem] ">
             Everything You Need To Grow Your Business

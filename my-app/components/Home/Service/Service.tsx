@@ -13,7 +13,8 @@ const Service = () => {
   return (
     <div className="pt-16 pb-16">
       <div className="w-[80%] mx-auto">
-        <BoxText>Our Service</BoxText>
+      <div data-aos="fade-left">
+          <BoxText>Our Service</BoxText>
         {/* heading */}
         <h1 className="mt-4 text-xl md:text-3xl font-bold text-gray-800">
           Our Services Made for You
@@ -25,10 +26,15 @@ const Service = () => {
           totam minima ratione, debitis modi. Quae autem earum commodi non
           pariatur neque.
         </p>
+      </div>
         {/* grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 items-start gap-y-12 mt-16">
           {/* 1st Service */}
-          <div className="flex items-start space-x-5 p-4 rounded-xl bg-white shadow-md hover:shadow-lg transition-shadow duration-300">
+          <div
+            data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom"
+            className="flex items-start space-x-5 p-4 rounded-xl bg-white shadow-md hover:shadow-lg transition-shadow duration-300"
+          >
             {/* icon */}
             <div className="w-14 h-14 rounded-lg flex items-center justify-center bg-pink-200 bg-opacity-40">
               <FaRocket className="w-6 h-6 text-orange-500 mx-4" />
@@ -44,7 +50,11 @@ const Service = () => {
           </div>
 
           {/* 2nd Service */}
-          <div className="flex items-start space-x-5 p-4 rounded-xl bg-white shadow-md hover:shadow-lg transition-shadow duration-300">
+          <div
+            data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom"
+            className="flex items-start space-x-5 p-4 rounded-xl bg-white shadow-md hover:shadow-lg transition-shadow duration-300"
+          >
             <div className="w-14 h-14 rounded-lg flex items-center justify-center bg-pink-200 bg-opacity-40">
               <FaBriefcase className="w-6 h-6 text-orange-500 mx-4" />
             </div>
@@ -58,7 +68,11 @@ const Service = () => {
           </div>
 
           {/* 3rd Service */}
-          <div className="flex items-start space-x-5 p-4 rounded-xl bg-white shadow-md hover:shadow-lg transition-shadow duration-300">
+          <div
+            data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom"
+            className="flex items-start space-x-5 p-4 rounded-xl bg-white shadow-md hover:shadow-lg transition-shadow duration-300"
+          >
             <div className="w-14 h-14 rounded-lg flex items-center justify-center bg-pink-200 bg-opacity-40">
               <FaShoppingCart className="w-6 h-6 text-orange-500 mx-4" />
             </div>
@@ -72,7 +86,11 @@ const Service = () => {
           </div>
 
           {/* 4th Service */}
-          <div className="flex items-start space-x-5 p-4 rounded-xl bg-white shadow-md hover:shadow-lg transition-shadow duration-300">
+          <div
+            data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom"
+            className="flex items-start space-x-5 p-4 rounded-xl bg-white shadow-md hover:shadow-lg transition-shadow duration-300"
+          >
             <div className="w-14 h-14 rounded-lg flex items-center justify-center bg-pink-200 bg-opacity-40">
               <FaPalette className="w-6 h-6 text-orange-500 mx-4" />
             </div>
@@ -85,7 +103,11 @@ const Service = () => {
           </div>
 
           {/* 5th Service */}
-          <div className="flex items-start space-x-5 p-4 rounded-xl bg-white shadow-md hover:shadow-lg transition-shadow duration-300">
+          <div
+            data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom"
+            className="flex items-start space-x-5 p-4 rounded-xl bg-white shadow-md hover:shadow-lg transition-shadow duration-300"
+          >
             <div className="w-14 h-14 rounded-lg flex items-center justify-center bg-pink-200 bg-opacity-40">
               <FaFillDrip className="w-6 h-6 text-orange-500 mx-4" />
             </div>
@@ -100,7 +122,11 @@ const Service = () => {
           </div>
 
           {/* 6th Service */}
-          <div className="flex items-start space-x-5 p-4 rounded-xl bg-white shadow-md hover:shadow-lg transition-shadow duration-300">
+          <div
+            data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom"
+            className="flex items-start space-x-5 p-4 rounded-xl bg-white shadow-md hover:shadow-lg transition-shadow duration-300"
+          >
             <div className="w-14 h-14 rounded-lg flex items-center justify-center bg-pink-200 bg-opacity-40">
               <FaLightbulb className="w-6 h-6 text-orange-500 mx-4" />
             </div>
