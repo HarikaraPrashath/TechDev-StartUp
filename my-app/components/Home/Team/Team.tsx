@@ -37,7 +37,7 @@ const Team = () => {
 
         {/* Image */}
         <div className=" sm:flex items-center space-y-4 sm:space-y-0 sm:space-x-4 lg:col-span-3">
-          <div className="relative overflow-hidden">
+          <div className="relative overflow-hidden ml-10">
             <Image
               src="/images/t1.jpg"
               alt="team"
@@ -50,7 +50,8 @@ const Team = () => {
               <p className="text-gray-200">(Founder)</p>
             </div>
           </div>
-             <div className="relative overflow-hidden">
+
+          <div className="relative overflow-hidden ml-10">
             <Image
               src="/images/t2.jpg"
               alt="team"
