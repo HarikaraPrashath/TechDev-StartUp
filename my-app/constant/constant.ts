@@ -35,3 +35,5 @@ export const Nav_Link =[
         label:"Contact"
     },
 ]
+
+
